@@ -10,4 +10,5 @@ def my_select(collection)
       arr.push(collection["#{i}"])
     end
   end
+  arr
 end
