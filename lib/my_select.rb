@@ -5,5 +5,6 @@ def my_select(collection)
    arr.push yield collection[i]
    if i == collection[i]
      i += 1
+   end
  end
 end
