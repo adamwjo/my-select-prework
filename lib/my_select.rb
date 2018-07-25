@@ -5,6 +5,7 @@ def my_select(collection)
    yield collection[i]
    if i == collection[i]
      return i
+     i += 1
    end
  end
 end
