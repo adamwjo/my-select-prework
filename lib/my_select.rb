@@ -1,3 +1,10 @@
 def my_select(collection)
- # your code here!
+ i = 0
+ arr = []
+ while i < collection.lenth
+   yield collection[i]
+   if i == collection[i]
+     return i
+   end
+ end
 end
