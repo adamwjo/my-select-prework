@@ -7,7 +7,7 @@ def my_select(collection)
   while i < collection.length
     yield collection[i]
     if true
-      arr.push(collection["#{i}"])
+      arr.push(collection[i])
     end
   end
   arr
