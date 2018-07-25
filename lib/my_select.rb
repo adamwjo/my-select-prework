@@ -6,9 +6,8 @@ def my_select(collection)
   arr = []
   while i < collection.length
     yield collection[i]
-    if i.even?
-      arr.push(collection[i])
-      i = i + 1
+    if true
+      arr.push(collection["#{i}"])
     end
   end
 end
