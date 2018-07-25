@@ -3,8 +3,8 @@ def my_select(collection)
  arr = []
  while i < collection.length
    yield collection[i]
-     arr.push("#{i}")
+     arr.push("#{i}") if i % 2
      i += 1
    end
-   arr 
+   arr
  end
